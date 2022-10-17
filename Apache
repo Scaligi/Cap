@@ -1,5 +1,5 @@
 title= "Cap Bailey's Apache Command";
-version= "v1.0";
+version= "v1.1";
 rc_url= "/Scaligi/Cap/main/Apache";
 
 r = ["Apache is a good boi 🐕🦴🐾🐕🦴🐾🐕🦴🐾",
@@ -12,6 +12,7 @@ r = ["Apache is a good boi 🐕🦴🐾🐕🦴🐾🐕🦴🐾",
 "Apache wants kisses 🐕👅😙🐕👅😙🐕👅😙"];
 
 if(q=="test"){title+" "+version+" User="+u+", Query="+q+", URLfetch Successful: Remote_Code:"+rc_url;}
+else if(q=="v"){"Version:"+version;}
 else if(q=="list"){"Apache Messages are: 1 Good | 2 Walkies | 3 Ball | 4 Love | 5 Homies | 6 Paly | 7 Bone | 8 Kisses";}
 
 else if(q=="") {r[Math.floor(Math.random()*r.length)];}
