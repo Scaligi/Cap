@@ -1,5 +1,5 @@
 title= "Cap Bailey's YouTube Gaming Promo Cycle Command";
-version= "v1.1b";
+version= "v1.2";
 rc_url= "/Scaligi/Cap/main/pc";
 
 yt_gaming= "Welcome to Cap Bailey Gaming - Like and subscribe then hit that notification bell so you don't miss the next stream 🔔";
