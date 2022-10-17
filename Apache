@@ -1,0 +1,21 @@
+title= "Cap Bailey's Apache Command";
+version= "v1.0";
+rc_url= "/Scaligi/Cap/main/Apache";
+
+r = ['Apache is a good boi 🐕🦴🐾🐕🦴🐾🐕🦴🐾',
+'Apache wants to go walkies 🐾🐾🐾🐾🐾🐾🐾🐾🐾',
+'Apache wants to play ball 🐕⚽🐾🐕⚽🐾🐕⚽🐾',
+'Apache needs some love 🐕💗🐾🐕💗🐾🐕💗🐾',
+'The homies all love Apache 🦝💗🐕🦝💗🐕🦝💗🐕',
+'Apache wants to play 🐕🐾⚽🐕🐾⚽🐕🐾⚽',
+'Apache wants a bone 🐕🦴🦴🐕🦴🦴🐕🦴🦴',
+'Apache wants kisses 🐕👅😙🐕👅😙🐕👅😙'];
+
+if(q=="test"){title+" "+version+" User="+u+", Query="+q+", URLfetch Successful: Remote_Code:"+rc_url;}
+else if(q=="list"){"Promo Messages are: 1 Good | 2 Walkies | 3 Ball | 4 Love | 5 Homies | 6 Paly | 7 Bone | 8 Kisses";}
+
+if(q=="") {r[Math.floor(Math.random()*r.length)];}
+else if(q>0 && q<=8) {r[q-1];}
+else if(q=="all"){r;}
+ 
+else{" --> Command Error - Scaligi Please Help!";}
