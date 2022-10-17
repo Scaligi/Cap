@@ -1,0 +1,40 @@
+title= "Cap Bailey's YouTube Gaming Promo Cycle Command";
+version= "v1.1b";
+rc_url= "/Scaligi/Cap/main/pc";
+
+yt_gaming= "Welcome to Cap Bailey Gaming - Like and subscribe then hit that notification bell so you don't miss the next stream 🔔";
+twitter= "🐦 Drop a follow on my Twitter! @CapBailey https://twitter.com/CapBailey";
+yt_asmr= "✨ Check out my ASMR channel www.youtube.com/CapBaileyASMR";
+instagram= "📷 Follow me on my Instagram! www.instagram.com/cap_bailey";
+yt_gaming_sub= "🎮 Click to subscribe to Cap Bailey Gaming www.youtube.com/channel/UC-Zwegn2Erpv-5X8YVGis7A?sub_confirmation=1";
+discord= "👉 Join the Discord Server (Cap's Cult) https://discord.gg/8ZSYVfY7ff";
+yt_asmr_sub= "🎥 Subscribe to Cap Bailey ASMR www.youtube.com/CapBaileyASMR?sub_confirmation=1";
+tiktok= "📱 Follow me on TikTok - Cap Bailey ASMR www.tiktok.com/@capbaileyasmr";
+
+if(q=="test"){title+" "+version+" User="+u+", Query="+q+", Command Count="+cc+", Promo Number="+pn+", URLfetch Successful: Remote_Code:"+rc_url;}
+
+else if(q=="list"){"Promo Messages are: 1🔔YTG | 2🐦twitter | 3✨YTASMR | 4📷instagram | 5🎮YTGsub | 6👉discord | 7🎥YTASMRSub | 8📱tiktiok | 9✨YTASMR | 10👉discord - Next in cycle is No."+[(pn*1)+1];}
+
+else if(q=="1"||q=="YTG"){yt_gaming;}
+else if(q=="2"||q=="twitter"){twitter;}
+else if(q=="3"||q=="YTASMR"){yt_asmr;}
+else if(q=="4"||q=="instagram"){instagram;}
+else if(q=="5"||q=="YTGsub"){yt_gaming_sub;}
+else if(q=="6"||q=="discord"){discord;}
+else if(q=="7"||q=="YTASMRSub"){yt_asmr_sub;}
+else if(q=="8"||q=="tiktiok"){tiktok;}
+else if(q=="9"||q=="YTASMR"){yt_asmr;}
+else if(q=="10"||q=="discord"){discord;}
+
+else if(pn=="1"){yt_gaming;}
+else if(pn=="2"){twitter;}
+else if(pn=="3"){yt_asmr;}
+else if(pn=="4"){instagram;}
+else if(pn=="5"){yt_gaming_sub;}
+else if(pn=="6"){discord;}
+else if(pn=="7"){yt_asmr_sub;}
+else if(pn=="8"){tiktok;}
+else if(pn=="9"){yt_asmr;}
+else if(pn=="0"){discord;}
+ 
+else{" --> Command Error - Scaligi Please Help!";}
