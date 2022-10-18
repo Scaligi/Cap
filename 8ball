@@ -29,4 +29,4 @@ else if(q=="list"){r;}
 
 else if(q=="XXX") {"TEST RESPONSE ONLY";}
 
-else{"u+ ", The Magic 🎱 ball says: "+ r[Math.floor(Math.random()*r.length)];";}
+else{u+ ", The Magic 🎱 ball says: "+ r[Math.floor(Math.random()*r.length)];}
