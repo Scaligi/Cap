@@ -1,10 +1,10 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="v9.4yt";
+rc_v ="v9.5yt";
 rc_url ="/Scaligi/Cap/main/ASMR";
 nc_v="v9.3yt";
 db="xd4wYYVR";
 
-q==q.toLowerCase();
+q=q.toLowerCase();
 n=a.length-1;
 r=Math.floor(Math.random()*n)+1; 
 
