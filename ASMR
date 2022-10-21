@@ -1,8 +1,14 @@
 title ="Cap Bailey's ASMR Command";
 rc_v ="v9.3yt";
 rc_url ="/Scaligi/Cap/main/ASMR";
+nc_v="v9.1yt";
+db="xd4wYYVR";
+
+n=a.length-1;
+r=Math.floor(Math.random()*n)+1; 
 
 s ="ASMR Video";
+
 tag =[" - Don't forget to like the video!", " - What are you waiting for? Share, share, share!", " - Go comment to feed the YouTube algorithm!", " - Have you subscribed to Cap Bailey ASMR?", " - Don't miss another video, hit that notification bell!"];
 
 options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
