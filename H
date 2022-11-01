@@ -1,5 +1,5 @@
 title ="New YT Halloween Command";
-rc_v ="v1.2";
+rc_v ="v1.3";
 nc_v="v1.1";
 rc_url ="/Scaligi/Cap/main/H";
 db="tHwEV4tf";
@@ -13,6 +13,7 @@ help ="User Guide can be found here on Discord: https://discordapp.com/channels/
 
 if (q[0]=="test"){title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url;}
 else if(q[0]=="v"){"Version: NC_"+nc_v+"/RC_"+rc_v;}
+else if(1==1) {"Halloween is over homie, try again in 2023";}
 else if(q[0]=="help"||q=="?"){help;}
 else if(q[0]=="list") {"List available here: https://pastebin.com/tHwEV4tf";}
 
