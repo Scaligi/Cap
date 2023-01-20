@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.9e";
+rc_v ="vYT_10.9f";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -106,6 +106,8 @@ else if(q=="announcement"||q=="twitch"){"Announcement "+s+"s selected by "+u+" 6
 else if(q=="members" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
 else if(q=="members only" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
 else if(q=="members"||q=="members only"){"Members Only pre-release "+s+" selected by "+u+" "+[n+1]+". "+a[n];}
+else if(q=="hidden members"||q=="hidden members only"){"Hidden Members Only "+s+" selected by "+u+" Members Only ASMR - Super Random But Relaxing Video https://youtu.be/r05IrZ6_oWg";}
+
 
 else if(q=="other"||q=="featuring bailey"){"Other ASMR artist featuring Cap Bailey: "+ other[Math.floor(Math.random()*other.length)];}
 
