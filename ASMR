@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.9f";
+rc_v ="vYT_10.9g";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -91,6 +91,7 @@ else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a
 else if(t=="winchester_in_wonderland"||t=="winchester.in.wonderland"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
 else if(t=="Winchester"||t=="winchester"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
 else if(t=="Emily_Grace"||t=="Emily_Grace#2381"){"Emily's favourite Cap Bailey "+s+" 60. "+a[60-1];}
+else if(t=="Patzo101"||t=="Patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
 
 
 else if(q=="" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
