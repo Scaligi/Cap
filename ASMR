@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.9.3e";
+rc_v ="vYT_10.9.3f";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -40,7 +40,7 @@ jk =[54,99,159,194,248,304];
 key =[284,280,273,269,126,45,35];
 lit =[337,336,330,329,327,323,321,318,314,311,309,306,307,301,293,292,271,267,265,264,261,228,226,222,207,206,190,188,184,179,136,132,120,118,106,98,96,93,88,87,86,78,76,75,73,70,69,63,62,61,55,49,33,21,20,5,2];
 mafia =[257,169,160,109,10];
-measure =[];
+measure =[303,284,254,196,149,109,89];
 med =[339,335,334,327,326,323,321,318,314,311,307,306,304,307,296,294,293,291,290,287,285,282,280,278,277,269,267,264,261,258,253,250,245,243,238,237,236,231,228,226,225,223,221,218,214,212,210,206,205,204,203,201,200,199,198,197,195,194,192,191,190,189,187,186,184,179,174,170,167,166,163,161,159,156,154,152,147,136,132,130,128,124,120,115,108,107,106,104,102,101,96,94,93,88,87,78,75,72,71,69,62,58,57,55,52,51,49,43,39,38,37,32,31,28,27,25,24,21,18,16,14,13,8,5,2];
 military =[334,310,252,237,211,209,199,152,151,146,144,142,130,124,106,101,94,79,18,5];
 movie =[304,302,254,248,194,160,159,100,99,83,74,68,59,54,40,10];
@@ -57,7 +57,7 @@ west =[220,186,150,128,103,72,51,11];
 whisp =[307,301,299,290,287,270,265,263,262,260,259,250,246,243,226,225,217,185,179,173,140,124,122,108,106,105,99,61];
 ww2 =[334,252,237,199,152,124,101,79,18];
 
-rev =[89,109,149,196,254,284,303];
+rev =[42];
 
 f = shorts.includes(r);
 
@@ -78,7 +78,7 @@ else if(q=="tags"||q=="tag list"){"The post hyperlink tags are: "+tag+" Total Ta
 
 else if(q=="help"||q=="?"){"!asmr suggests a random video from Cap Bailey's YouTube channel | !asmr 1 - "+n+" selects a specific video | Command options include !asmr latest, list, total | Use !asmr options for a list of category options | !asmr featuring bailey for other ASMR artists suggestions";}
 else if(q=="list"){"The video list database used by this command is available here: https://pastebin.com/"+db;}
-else if(q=="options"||q=="option"){"**Category Options:** "+options;}
+else if(q=="options"||q=="option"){"**Options:** "+options;}
 else if(q=="total"){"Cap Bailey has "+n+" ASMR videos on his YouTube channel, including "+[n-shorts.length]+" Full length videos and "+[shorts.length]+" #Shorts, including one announcement.";}
 else if(q=="rev"){rev.reverse(); u+" --> Reverse Array list: "+rev+" Total="+rev.length;}
 else if(q=="f"){u+" --> Found= "+f+", Random ="+r;}
