@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.9.7";
+rc_v ="vYT_10.9.8";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -93,10 +93,10 @@ else if(t=="VerafiedTrashPanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap 
 else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a[118-1]+" 💜";}
 else if(t=="winchester_in_wonderland"||t=="winchester.in.wonderland"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
 else if(t=="Winchester"||t=="winchester"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
-else if(t=="emilygrace237"||t=="Emily_Grace#2381"){"Emily's favourite Cap Bailey "+s+" 60. "+a[60-1];}
+else if(t=="emilygrace237"||t=="emily_grace"){"Emily's favourite Cap Bailey "+s+" 60. "+a[60-1];}
 else if(t=="Patzo101"||t=="Patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
 else if(t=="<@157988839401586688>"||t=="patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
-
+else if(t=="<@1072357495923822692>"||t=="Temple_0f_Time"){"Temple_0f_Time's favourite Cap Bailey "+s+" 225. "+a[225-1]+" - Here you go Temple, just for you homie!";}
 
 
 else if(q=="" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
