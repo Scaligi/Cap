@@ -100,7 +100,7 @@ else if(t=="Patzo101"||t=="Patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[
 else if(t=="<@157988839401586688>"||t=="patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
 else if(t=="<@1072357495923822692>"||t=="Temple_0f_Time"){"Temple_0f_Time's favourite Cap Bailey "+s+" 225. "+a[225-1]+" - Here you go Temple, just for you homie!";}
 
-else if(q==""Logan_Scott"||q=="Logan"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+" "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="Logan_Scott"||q=="Logan"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+" "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="logan list"||q=="Logan list"){u+" --> Logan's favourite Cap Bailey "+s+"s list: "+logan+" Total="+logan.length;}
 
 
