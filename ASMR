@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.20b";
+rc_v ="vYT_10.20c";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -14,7 +14,6 @@ tag =[" - Don't forget to like the video!", " - What are you waiting for? Share,
 options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
 shorts = [362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
-
 
 
 affirmation =[357,336,333,301,285,284,268,149,122,118,70,15];
@@ -58,7 +57,7 @@ whisp =[357,307,301,299,290,287,270,265,263,262,260,259,250,246,243,226,225,217,
 ww2 =[334,252,237,199,152,124,101,79,18];
 
 logan =[154,101,75];
-kita =[366,365,362,360,358,354,352,344,348,337,330,329,328,326,317,316,313,312,309,308,306,301,300,297,292,291,290,280,279,268,263,262,256,255,250,246,242,238,233,226,222,206,204,188,181,170,164,145,134,88,104,98,77,69,58,49,23];
+kita =[366,365,362,360,358,354,352,344,348,337,330,329,328,326,317,316,313,312,309,308,306,301,300,297,292,291,290,280,279,268,263,262,256,255,250,246,242,238,233,226,222,204,188,181,170,164,145,134,88,104,98,77,69,58,49,23];
 
 rev =[1,2,3,4,5];
 
