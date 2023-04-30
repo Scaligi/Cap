@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.20a";
+rc_v ="vYT_10.20b";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -102,12 +102,12 @@ else if(t=="<@157988839401586688>"||t=="patzo"){"Patzo's favourite Cap Bailey "+
 else if(t=="<@1072357495923822692>"||t=="Temple_0f_Time"){"Temple_0f_Time's favourite Cap Bailey "+s+" 225. "+a[225-1]+" - Here you go Temple, just for you homie!";}
 
 else if(t=="Logan_Scott"||t=="<@830790312259223553>"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+"s "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="Logan"||q=="logan"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+"s "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="logan list"||q=="Logan list"){logan.reverse();u+" --> Logan's favourite Cap Bailey "+s+"s list: "+logan+" Total="+logan.length;}
+else if(q=="logan"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+"s "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="logan list"){logan.reverse();u+" --> Logan's favourite Cap Bailey "+s+"s list: "+logan+" Total="+logan.length;}
 
 else if(t=="Kitakashikikaechelon"||t=="<@684186498123563025>"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="Kita"||q=="kita"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="Kita list"||q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"s list: "+kita+" Total="+kita.length;}
+else if(q=="kita"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"s list: "+kita+" Total="+kita.length;}
 
 
 else if(q=="" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
