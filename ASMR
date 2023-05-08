@@ -71,7 +71,7 @@ other =[
 "RaffyTaphyASMR: ASMR Good Sounds with the Boys (hand sounds, gloves, tapping) https://youtu.be/TQHCBJGv8Rs",
 "ASMR Rich: ASMR | INSANE GUN SOUNDS WITH THE HOMIES With @RaffyTaphyASMR and @Cap Bailey ASMR For Sleep https://youtu.be/OCdxI1cu7pI",
 "edafoxx ASMR: The Girl In The Back Of The Class Gives You A Head Massage - Relaxing ASMR ft. @Cap Bailey ASMR https://youtu.be/Y7LB5tsE89k",
-"edafoxx ASMR: THE ASMR COLLAB: 21 Roleplays in 21 Minutes with Your Favorite ASMRtists! https://youtu.be/zsMPHJQgew4"];
+"edafoxx ASMR: THE ASMR COLLAB: 21 Roleplays in 21 Minutes with Your Favorite ASMRtists! https://youtu.be/zsMPHJQgew4?t=577"];
 
 
 if(q=="test" && a[n]==""){title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url;}
