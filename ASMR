@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.30";
+rc_v ="vYT_10.31";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -14,7 +14,6 @@ tag =[" - Don't forget to like the video!", " - What are you waiting for? Share,
 options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
 shorts = [375,373,371,370,369,368,362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
-
 
 affirmation =[357,336,333,301,285,284,268,149,122,118,70,15];
 ambient =[334,300,291,237,211,209,199,196,177,162,155,152,150,103,101,100,95,94,92,83,81,79,77,75,74,72,65,64,51,18,11];
@@ -64,6 +63,8 @@ rev =[1,2,3,4,5];
 f = shorts.includes(r);
 
 jamie ="https://www.tiktok.com/@jaimefrench/video/7163437728913247534";
+
+gnarly =["ASMR My Recce Rifle Setup | ASMR For The Boys https://youtu.be/5LIzZzIWNvo"];
 
 other =[
 "James Matthew ASMR - DARK ASMR - THE RITUAL (Featuring CAP BAILEY!) HALLOWEEN ROLE PLAY! https://youtu.be/wz4tvVyZxcI",
@@ -126,6 +127,8 @@ else if(q=="members only" && a[n]==""){"There is no current members only pre-rel
 else if(q=="members"||q=="members only"){"Members Only pre-release "+s+" selected by "+u+" "+[n+1]+". "+a[n];}
 else if(q=="hidden members"||q=="hidden members only"){"Hidden Members Only "+s+" selected by "+u+" - Super Random But Relaxing Video https://youtu.be/r05IrZ6_oWg";}
 
+else if(q=="gnarly"){"Oh That's Gnarly video: "+ gnarly[Math.floor(Math.random()*gnarly.length)];}
+else if(q=="gnarly new"||q=="gnarly latest"){"Oh That's Gnarly video: "+ gnarly[0];}
 
 else if(q=="other"||q=="featuring bailey"){"Other ASMR artist featuring Cap Bailey: "+ other[Math.floor(Math.random()*other.length)];}
 
