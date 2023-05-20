@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.33";
+rc_v ="vYT_10.34";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -64,7 +64,10 @@ f = shorts.includes(r);
 
 jamie ="https://www.tiktok.com/@jaimefrench/video/7163437728913247534";
 
-gnarly =["ASMR My Recce Rifle Setup | ASMR For The Boys https://youtu.be/5LIzZzIWNvo"];
+gnarly =[
+"AR15 Cleaning ASMR https://youtu.be/tkJrXFocFS8",
+"ASMR My Recce Rifle Setup | ASMR For The Boys https://youtu.be/5LIzZzIWNvo"
+];
 
 other =[
 "James Matthew ASMR - DARK ASMR - THE RITUAL (Featuring CAP BAILEY!) HALLOWEEN ROLE PLAY! https://youtu.be/wz4tvVyZxcI",
