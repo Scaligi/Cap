@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.42";
+rc_v ="vYT_10.43";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -90,15 +90,15 @@ else if(q=="total"){"Cap Bailey has "+n+" ASMR videos on his YouTube channel, in
 else if(q=="rev"){rev.reverse(); u+" --> Reverse Array list: "+rev+" Total="+rev.length;}
 else if(q=="f"){u+" --> Found= "+f+", Random ="+r;}
 
-else if(t=="Scaligi"){"Scaligi's favourite Cap Bailey "+s+" 61. "+a[61-1];}
-else if(t=="scaligi"){"Scaligi's second favourite Cap Bailey "+s+" 2. "+a[2-1];}
+else if(t=="scaligi"){"Scaligi's favourite Cap Bailey "+s+" 61. "+a[61-1];}
+else if(t=="Scaligi"){"Scaligi's second favourite Cap Bailey "+s+" 2. "+a[2-1];}
 else if(t=="Scali"){"Scali's current go to Cap Bailey "+s+" from 7m 30s in (To avoid that damn cloth I can tell you!) 314. "+a[314-1]+"?t=450";}
 else if(t=="mxryumm"||t=="_mxryumm"){"Maryum's favorite Cap Bailey "+s+" 280. "+a[280-1]+" 🕷🕷🕷🤍🤍🤍";}
 else if(t=="enola"){"Enola's favourite Cap Bailey "+s+" 105. "+a[105-1];}
 else if(t=="Vera_1107"||t=="vera_1107"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
-else if(t=="VerafiedTrashPanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
+else if(t=="verafiedtrashpanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
 else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a[118-1]+" 💜";}
-else if(t=="winchester_in_wonderland"||t=="winchester.in.wonderland"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
+else if(t=="winchester.in.wonderland"||t=="winchester.in.wonderland"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
 else if(t=="Winchester"||t=="winchester"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
 else if(t=="Sam"||t=="sam"){"Winchester's second favourite Cap Bailey "+s+" 279. "+a[279-1];}
 else if(t=="emilygrace237"||t=="emily_grace"){"Emily's favourite Cap Bailey "+s+" 60. "+a[60-1];}
@@ -110,7 +110,7 @@ else if(t=="Logan_Scott"||t=="<@830790312259223553>"){logan_r = Math.floor(Math.
 else if(q=="logan"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+"s "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="logan list"){logan.reverse();u+" --> Logan's favourite Cap Bailey "+s+"s list: "+logan+" Total="+logan.length;}
 
-else if(t=="Kitakashikikaechelon"||t=="<@684186498123563025>"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(t=="kitakashikikaechelon"||t=="<@684186498123563025>"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="kita"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"s list: "+kita+" Total="+kita.length;}
 
