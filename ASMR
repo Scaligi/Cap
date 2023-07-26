@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.55";
+rc_v ="vYT_10.56";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -95,14 +95,12 @@ else if(q=="f"){u+" --> Found= "+f+", Random ="+r;}
 else if(t=="scaligi"){"Scaligi's favourite Cap Bailey "+s+" 61. "+a[61-1];}
 else if(t=="Scaligi"){"Scaligi's second favourite Cap Bailey "+s+" 2. "+a[2-1];}
 else if(t=="Scali"){"Scali's current go to Cap Bailey "+s+" from 7m 30s in (To avoid that damn cloth I can tell you!) 314. "+a[314-1]+"?t=450";}
-else if(t=="mxryumm"||t=="_mxryumm"){"Maryum's favorite Cap Bailey "+s+" 280. "+a[280-1]+" 🕷🕷🕷🤍🤍🤍";}
+
 else if(t=="enola"){"Enola's favourite Cap Bailey "+s+" 105. "+a[105-1];}
 else if(t=="VerafiedTrashPanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
 else if(t=="verafiedtrashpanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
 else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a[118-1]+" 💜";}
-else if(t=="winchester.in.wonderland"||t=="winchester.in.wonderland"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
-else if(t=="Winchester"||t=="winchester"){"Winchester's favourite Cap Bailey "+s+" 268. "+a[268-1];}
-else if(t=="Sam"||t=="sam"){"Winchester's second favourite Cap Bailey "+s+" 279. "+a[279-1];}
+
 else if(t=="emilygrace237"||t=="emily_grace"){"Emily's favourite Cap Bailey "+s+" 60. "+a[60-1];}
 else if(t=="Patzo101"||t=="Patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
 else if(t=="<@157988839401586688>"||t=="patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
@@ -193,7 +191,7 @@ else if(q=="ear list"||q=="ears list"){ear.reverse(); u+" --> Ears "+s+" list is
 else if(q=="eye"||q=="eyes"){eye_r = Math.floor(Math.random()*eye.length); "Eyes "+s+" suggestion for "+u+" " +eye[eye_r]+ ". " +a[eye[eye_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="eye list"||q=="eyes list"){eye.reverse(); u+" --> Eyes "+s+" list is: "+eye+" Total="+eye.length;}
 
-else if(q=="face"){face_r = Math.floor(Math.random()*face.length); "Face touching "+s+" suggestion for "+u+" " +face[face_r]+ ". " +a[face[face_r]-1]+" - Many thanks to winchester in wonderland for suggesting this option";}
+else if(q=="face"){face_r = Math.floor(Math.random()*face.length); "Face touching "+s+" suggestion for "+u+" " +face[face_r]+ ". " +a[face[face_r]-1];}
 else if(q=="face list"){face.reverse(); u+" --> Face touching "+s+" list is: "+face+" Total="+face.length;}
 
 else if(q=="food"||q=="Food"){food_r = Math.floor(Math.random()*food.length); "Food "+s+" suggestion for "+u+" "+food[food_r]+ ". " + a[food[food_r]-1]+tag[Math.floor(Math.random()*tag.length)]+" - Many thanks to VerafiedTrashPanda for suggesting this option";}
@@ -214,8 +212,8 @@ else if(q=="hair list"){hair.reverse(); u+" --> Hair ASMR video list is: "+hair+
 else if(q=="halloween"||q=="Halloween"){halloween_r = Math.floor(Math.random()*halloween.length); "🎃🎃🎃 Halloween "+s+" suggestion for "+u+" "+halloween[halloween_r]+ ". " + a[halloween[halloween_r]-1]+tag[Math.floor(Math.random()*tag.length)]+" - Many thanks to VerafiedTrashPanda for suggesting this option";}
 else if(q=="halloween list"||q=="Halloween list"){halloween.reverse();u+" --> 🎃🎃🎃 Halloween "+s+" list is: "+halloween+" Total="+halloween.length;}
 
-else if(q=="hands"||q=="hand"){hand_r = Math.floor(Math.random()*hand.length); "Hands "+s+" suggestion for "+u+" " +hand[hand_r]+ ". " +a[hand[hand_r]-1]+" - Many thanks to winchester in wonderland for selecting the video list for this option";}
-else if(q=="hand list"||q=="hands list"){hand.reverse(); u+" --> Hands ASMR video list is: "+hand+" Total="+hand.length+" - Many thanks to winchester in wonderland for selecting this video list";}
+else if(q=="hands"||q=="hand"){hand_r = Math.floor(Math.random()*hand.length); "Hands "+s+" suggestion for "+u+" " +hand[hand_r]+ ". " +a[hand[hand_r]-1];}
+else if(q=="hand list"||q=="hands list"){hand.reverse(); u+" --> Hands ASMR video list is: "+hand+" Total="+hand.length;}
 
 else if(q=="joker"){jk_r = Math.floor(Math.random()*jk.length); "The Joker "+s+" suggestion for "+u+" " +jk[jk_r]+ ". " +a[jk[jk_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="joker list"){jk.reverse(); u+" --> The Joker "+s+" list is: "+jk+" Total="+jk.length;}
@@ -243,7 +241,7 @@ else if(q=="military list"||q=="Military list"){military.reverse();u+" --> Milit
 else if(q=="movie"||q=="movies"){movie_r = Math.floor(Math.random()*movie.length); "Movie inspired "+s+" suggestion for "+u+" " +movie[movie_r]+ ". " +a[movie[movie_r]-1]+" - Many thanks to VerafiedTrashPanda for suggesting this option";}
 else if(q=="movie list"||q=="movies list"){movie.reverse(); u+" --> Movie inspired "+s+" list is: "+movie+" Total="+movie.length;}
 
-else if(q=="non roleplay"||q=="non rp"){nonrp_r = Math.floor(Math.random()*nonrp.length); "Non Roleplay "+s+" suggestion for "+u+" " +nonrp[nonrp_r]+ ". " +a[nonrp[nonrp_r]-1]+" - Thanks to VerafiedTrashPanda for suggesting this option and putting together the list along with winchester in wonderland for further suggestions";}
+else if(q=="non roleplay"||q=="non rp"){nonrp_r = Math.floor(Math.random()*nonrp.length); "Non Roleplay "+s+" suggestion for "+u+" " +nonrp[nonrp_r]+ ". " +a[nonrp[nonrp_r]-1]+" - Thanks to VerafiedTrashPanda for suggesting this option and putting together the list";}
 else if(q=="non roleplay list"||q=="non rp list"){nonrp.reverse(); u+" --> Non Roleplay "+s+" list is: "+nonrp+" Total="+nonrp.length;}
 
 else if(q=="non verbal"||q=="nonverbal"){nonverbal_r = Math.floor(Math.random()*nonverbal.length); "Non Verbal "+s+" suggestion for "+u+" "+nonverbal[nonverbal_r]+ ". " + a[nonverbal[nonverbal_r]-1]+tag[Math.floor(Math.random()*tag.length)]+" - Many thanks to VerafiedTrashPanda for suggesting this option";}
