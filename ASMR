@@ -103,7 +103,8 @@ else if(t=="VerafiedTrashPanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap 
 else if(t=="verafiedtrashpanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
 else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a[118-1]+" 💜";}
 
-else if(q=="<@1030257179476901958>"||t=="em"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(t=="<@1030257179476901958>"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="emily"||t=="em"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(t=="emilygrace237"||t=="emily_grace"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="emily list"||t=="em list"){em.reverse();u+" --> Emily's favourite Cap Bailey "+s+"s list: "+em+" Total="+em.length;}
 
