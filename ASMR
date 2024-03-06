@@ -110,7 +110,7 @@ else if(t=="undeadkraken765"||t=="<@1167290110862172240>"){"Undeadkraken's favou
 else if(t=="undeadkraken"||t=="kraken"){"Undeadkraken's favourite Cap Bailey "+s+" 300. "+a[300-1]+" 🩸🧛‍♂️🩸🧛‍♂️🩸";}
 
 else if(t=="<@1072357495923822692>"){temple_r = Math.floor(Math.random()*temple.length); "One of Temple_0f_Time's favourite Cap Bailey "+s+"s "+temple[temple_r]+". "+a[temple[temple_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="temple_0f_time"||t=="temple"){temple_r = Math.floor(Math.random()*temple.length); "One of Temple_0f_Time's favourite Cap Bailey "+s+"s "+temple[temple_r]+". "+a[temple[temple_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(t=="temple_0f_time"||q=="temple"){temple_r = Math.floor(Math.random()*temple.length); "One of Temple_0f_Time's favourite Cap Bailey "+s+"s "+temple[temple_r]+". "+a[temple[temple_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="temple list"||t=="temple_0f_time list"){temple.reverse();u+" --> Temple_0f_Time's favourite Cap Bailey "+s+"s list: "+temple+" Total="+temple.length;}
 
 else if(t=="<@1030257179476901958>"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
