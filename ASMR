@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.68";
+rc_v ="vYT_10.69";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -55,6 +55,7 @@ west =[363,220,186,150,128,103,72,51,11];
 whisp =[357,307,301,299,290,287,270,265,263,262,260,259,250,246,243,226,225,217,185,179,173,140,124,122,108,106,105,99,61];
 ww2 =[334,252,237,199,152,124,101,79,18];
 
+vera = [436,328,300,259,118,3];
 temple = [297,283];
 em = [443,413,186,128,60];
 logan =[154,142,101,75];
@@ -100,9 +101,10 @@ else if(t=="Scaligi"){"Scaligi's second favourite Cap Bailey "+s+" 2. "+a[2-1];}
 else if(t=="Scali"){"Scali's current go to Cap Bailey "+s+" from 7m 30s in (To avoid that damn cloth I can tell you!) 314. "+a[314-1]+"?t=450";}
 
 else if(t=="enola"){"Enola's favourite Cap Bailey "+s+" 105. "+a[105-1];}
-else if(t=="VerafiedTrashPanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
-else if(t=="verafiedtrashpanda"||t=="VerafiedTrashPanda"){"Vera's favourite Cap Bailey "+s+" 259. "+a[259-1]+" 💜";}
-else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a[118-1]+" 💜";}
+
+else if(q=="Vera"||q=="vera"){vera_r = Math.floor(Math.random()*vera.length); "One of Vera's favourite Cap Bailey "+s+"s "+vera[vera_r]+". "+a[vera[vera_r]-1]+" 💜 "+tag[Math.floor(Math.random()*tag.length)];}
+else if(t=="<@904784029180653639>"||t=="verafiedtrashpanda"){vera_r = Math.floor(Math.random()*vera.length); "One of Vera's favourite Cap Bailey "+s+"s "+vera[vera_r]+". "+a[vera[vera_r]-1]+" 💜 "+tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="verafiedtrashpanda list"||q=="vera list"){vera.reverse();u+" --> Vera's favourite Cap Bailey "+s+"s list: "+vera+" Total="+vera.length;}
 
 else if(t=="undeadkraken765"||t=="<@1167290110862172240>"){"Undeadkraken's favourite Cap Bailey "+s+" 300. "+a[300-1]+" 🩸🧛‍♂️🩸🧛‍♂️🩸";}
 else if(t=="undeadkraken"||t=="kraken"){"Undeadkraken's favourite Cap Bailey "+s+" 300. "+a[300-1]+" 🩸🧛‍♂️🩸🧛‍♂️🩸";}
