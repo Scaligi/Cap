@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.67";
+rc_v ="vYT_10.68";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -55,6 +55,7 @@ west =[363,220,186,150,128,103,72,51,11];
 whisp =[357,307,301,299,290,287,270,265,263,262,260,259,250,246,243,226,225,217,185,179,173,140,124,122,108,106,105,99,61];
 ww2 =[334,252,237,199,152,124,101,79,18];
 
+temple = [297,283];
 em = [443,413,186,128,60];
 logan =[154,142,101,75];
 kita =[380,366,365,362,360,358,354,352,344,348,337,330,329,328,326,317,316,313,312,309,308,306,301,300,297,292,291,290,280,279,268,263,262,256,255,250,246,242,238,233,226,222,204,188,181,170,164,145,134,88,104,98,77,69,58,49,23];
@@ -105,6 +106,10 @@ else if(t=="Vera"||t=="vera"){"Vera's second favourite Cap Bailey "+s+" 118. "+a
 
 else if(t=="undeadkraken765"||t=="<@1167290110862172240>"){"Undeadkraken's favourite Cap Bailey "+s+" 300. "+a[300-1]+" 🩸🧛‍♂️🩸🧛‍♂️🩸";}
 else if(t=="undeadkraken"||t=="kraken"){"Undeadkraken's favourite Cap Bailey "+s+" 300. "+a[300-1]+" 🩸🧛‍♂️🩸🧛‍♂️🩸";}
+
+else if(t=="<@1072357495923822692>"){temple_r = Math.floor(Math.random()*temple.length); "One of Temple_0f_Time's favourite Cap Bailey "+s+"s "+temple[temple_r]+". "+a[temple[temple_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="temple_0f_time"||t=="temple"){temple_r = Math.floor(Math.random()*temple.length); "One of Temple_0f_Time's favourite Cap Bailey "+s+"s "+temple[temple_r]+". "+a[temple[temple_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="temple list"||t=="temple_0f_time list"){temple.reverse();u+" --> Temple_0f_Time's favourite Cap Bailey "+s+"s list: "+temple+" Total="+temple.length;}
 
 else if(t=="<@1030257179476901958>"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="emily"||t=="em"){em_r = Math.floor(Math.random()*em.length); "One of Emily's favourite Cap Bailey "+s+"s "+em[em_r]+". "+a[em[em_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
