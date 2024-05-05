@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.70";
+rc_v ="vYT_10.71";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -133,6 +133,10 @@ else if(q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"
 
 else if(q=="" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="#" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
+
+else if(q=="" && a[r-1].charAt(0)=="`"){"****M-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="#" && a[r-1].charAt(0)=="`"){"****M-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
+
 else if(q==""||q=="#"){s+" suggestion for "+u+" "+r+". "+a[r-1]+tag[Math.floor(Math.random()*tag.length)];}
 
 else if(q=="latest"||q=="new"){"My latest video on YouTube "+a[n-1]+tag[Math.floor(Math.random()*tag.length)];}
