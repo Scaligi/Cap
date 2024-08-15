@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.74";
+rc_v ="vYT_10.75";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -131,8 +131,8 @@ else if(q=="kita"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita'
 else if(q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"s list: "+kita+" Total="+kita.length;}
 
 
-else if(q=="" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="#" && a[r-1].charAt(0)=="#"){"****JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="" && a[r-1].charAt(0)=="#"){"****S-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="#" && a[r-1].charAt(0)=="#"){"****S-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
 
 else if(q=="" && a[r-1].charAt(0)=="`"){"****M-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="#" && a[r-1].charAt(0)=="`"){"****M-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
