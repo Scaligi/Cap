@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.80";
+rc_v ="vYT_10.81";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -34,7 +34,7 @@ gun =[415,409,383,320,284,283,270,234,229,224,215,185,169,151,148,146,144,143,14
 hair =[386,366,332,322,302,281,249,239,233,213,138,112,97,84,50,44];
 halloween =[306,302,304,300,248,196,194,192,159,62,57,54,34];
 hand =[338,329,328,324,322,316,315,308,301,271,267,265,261,251,246,227,218,202,198,186,181,173,171,157,153,143,122,118,116,114,84,83,63,53,17];
-jk =[54,99,159,194,248,304,427];
+jk =[54,99,159,194,248,304,427,523];
 key =[284,280,273,269,126,45,35];
 lit =[414,337,336,330,329,327,323,321,318,314,311,309,306,307,301,293,292,271,267,265,264,261,228,226,222,207,206,190,188,184,179,136,132,120,118,106,98,96,93,88,87,86,78,76,75,73,70,69,63,62,61,55,49,33,21,20,5,2];
 mafia =[355,257,169,160,109,10];
@@ -84,8 +84,8 @@ other =[
 "edafoxx ASMR: THE ASMR COLLAB: 21 Roleplays in 21 Minutes with Your Favorite ASMRtists! https://youtu.be/zsMPHJQgew4?t=577"];
 
 
-if(q=="test" && a[n]==""){title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url;}
-else if(q=="test"){title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members="+[n+1]+", Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url;}
+if(q=="test" && a[n]==""){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
+else if(q=="test"){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members="+[n+1]+", Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
 else if(q=="v"){"Version: NC_"+nc_v+"/RC_"+rc_v;}
 else if(q=="tags"||q=="tag list"){"The post hyperlink tags are: "+tag+" Total Tags="+tag.length;}
 
