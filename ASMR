@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.83";
+rc_v ="vYT_10.84";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -98,7 +98,7 @@ else if(q=="f"){u+" --> Found= "+f+", Random ="+r;}
 
 else if(t=="scaligi"){"Scaligi's favourite Cap Bailey "+s+" 61. "+a[61-1];}
 else if(t=="Scaligi"){"Scaligi's second favourite Cap Bailey "+s+" 2. "+a[2-1];}
-else if(t=="Scali"){"Scali's go to Cap Bailey "+s+" from 7m 30s in (To avoid that damn cloth I can tell you!) 314. "+a[314-1]+"?t=450";}
+else if(t=="Scali"||q=="scali"){"Scaligi's go to Cap Bailey "+s+" from 7m 30s in (To avoid that damn cloth I can tell you!) 314. "+a[314-1]+"?t=450";}
 
 else if(t=="enola"){"Enola's favourite Cap Bailey "+s+" 105. "+a[105-1];}
 
