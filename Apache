@@ -11,7 +11,7 @@ r = ["Apache is a good boi 🐕🦴🐾🐕🦴🐾🐕🦴🐾",
 "Apache wants a bone 🐕🦴🦴🐕🦴🦴🐕🦴🦴",
 "Apache wants kisses 🐕👅😙🐕👅😙🐕👅😙"];
 
-if(p=="discord"){d="> ### ";
+if(p=="discord"){d = "> ### ";
 r = ["Apache is a good boi `🐕🦴🐾🐕🦴🐾🐕🦴🐾`",
 "Apache wants to go walkies `🐾🐾🐾🐾🐾🐾🐾🐾🐾`",
 "Apache wants to play ball `🐕⚽🐾🐕⚽🐾🐕⚽🐾`",
@@ -22,7 +22,7 @@ r = ["Apache is a good boi `🐕🦴🐾🐕🦴🐾🐕🦴🐾`",
 "Apache wants kisses `🐕👅😙🐕👅😙🐕👅😙`"];
 }
 
-if(q=="test"){d+title+" "+version+" User="+u+", Query="+q+", URLfetch Successful: Remote_Code:"+rc_url;}
+if(q=="test"){d+title+" "+version+" Provider="+p+" User="+u+", Query="+q+", URLfetch Successful: Remote_Code:"+rc_url;}
 else if(q=="v"){d+"Version:"+version;}
 else if(q=="list"){d+"Apache Messages are: 1 Good | 2 Walkies | 3 Ball | 4 Love | 5 Homies | 6 Play | 7 Bone | 8 Kisses";}
 
