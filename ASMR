@@ -1,11 +1,22 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_10.88";
+rc_v ="vYT_11.1-Beta";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
 q=q.toLowerCase();
 n=a.length-1;
-r=Math.floor(Math.random()*n)+1; 
+
+jump_short_message = "";
+jump_member_message = "";
+ 
+do {
+r=Math.floor(Math.random()*n)+1;
+jump_check = a[r-1].charAt(0);
+jump = false;
+if (jump_check=="#" ) {jump_short_message = "**NEW-S-JUMP** "; jump = true;}
+if (jump_check=="`" ) {jump_member_message = "**NEW-M-JUMP** "; jump = true;}
+}
+while (jump == true);
 
 s ="ASMR Video";
 
@@ -131,13 +142,12 @@ else if(q=="kita"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita'
 else if(q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"s list: "+kita+" Total="+kita.length;}
 
 
-else if(q=="" && a[r-1].charAt(0)=="#"){"****S-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="#" && a[r-1].charAt(0)=="#"){"****S-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
 
-else if(q=="" && a[r-1].charAt(0)=="`"){"****M-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="#" && a[r-1].charAt(0)=="`"){"****M-JUMP**** "+s+" suggestion for "+u+" "+[r+1]+". "+a[r]+tag[Math.floor(Math.random()*tag.length)];}
 
-else if(q==""||q=="#"){s+" suggestion for "+u+" "+r+". "+a[r-1]+tag[Math.floor(Math.random()*tag.length)];}
+else if(q==""||q=="#"){jump_short_message+jump_member_message+s+" suggestion for "+u+" "+r+". "+a[r-1]+tag[Math.floor(Math.random()*tag.length)];}
+
+
+
 
 else if(q=="latest"||q=="new"){"My latest video on YouTube "+a[n-1]+tag[Math.floor(Math.random()*tag.length)];}
 
