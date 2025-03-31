@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_11.1a-Beta";
+rc_v ="vYT_11.1b-Beta";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -129,23 +129,9 @@ else if(q=="emily"||t=="Emily"){emily_r = Math.floor(Math.random()*emily.length)
 else if(t=="emilygrace237"||t=="emily_grace"){emily_r = Math.floor(Math.random()*emily.length); "One of Emily's favourite Cap Bailey "+s+"s "+emily[emily_r]+". "+a[emily[emily_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="emily list"||t=="Emily list"){emily.reverse();u+" --> Emily's favourite Cap Bailey "+s+"s list: "+emily+" Total="+emily.length;}
 
-else if(t=="Patzo101"||t=="Patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
-else if(t=="<@157988839401586688>"||t=="patzo"){"Patzo's favourite Cap Bailey "+s+" 279. "+a[279-1]+" - Here you go Patzo, just for you homie!";}
-else if(t=="<@1072357495923822692>"||t=="temple_0f_time"){"Temple_0f_Time's favourite Cap Bailey "+s+" 225. "+a[225-1]+" - Here you go Temple, just for you homie!";}
 
-else if(t=="Logan_Scott"||t=="<@830790312259223553>"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+"s "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="logan"){logan_r = Math.floor(Math.random()*logan.length); "One of Logan's favourite Cap Bailey "+s+"s "+logan[logan_r]+". "+a[logan[logan_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="logan list"){logan.reverse();u+" --> Logan's favourite Cap Bailey "+s+"s list: "+logan+" Total="+logan.length;}
-
-else if(t=="kitakashikikaechelon"||t=="<@684186498123563025>"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="kita"){kita_r = Math.floor(Math.random()*kita.length); "One of Kita's favourite Cap Bailey "+s+"s "+kita[kita_r]+". "+a[kita[kita_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="kita list"){kita.reverse();u+" --> Kita's favourite Cap Bailey "+s+"s list: "+kita+" Total="+kita.length;}
-
-
-
-
+ 
 else if(q==""||q=="#"){jump_short_message+jump_member_message+s+" suggestion for "+u+" "+r+". "+a[r-1]+tag[Math.floor(Math.random()*tag.length)];}
-
 
 
 
