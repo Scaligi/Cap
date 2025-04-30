@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_11.18";
+rc_v ="vYT_11.19";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -24,7 +24,7 @@ tag =[" - Don't forget to like the video!", " - What are you waiting for? Share,
 
 options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
-shorts = [568,565,561,560,558,556,555,554,516,514,513,505,503,501,500,498,497,454,429,402,401,397,396,395,393,392,388,382,381,378,377,375,373,371,370,369,368,362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
+shorts = [572,568,565,561,560,558,556,555,554,516,514,513,505,503,501,500,498,497,454,429,402,401,397,396,395,393,392,388,382,381,378,377,375,373,371,370,369,368,362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
 
 affirmation =[357,336,333,301,285,284,268,149,122,118,70,15];
 ambient =[334,300,291,237,211,209,199,196,177,162,155,152,150,103,101,100,95,94,92,83,81,79,77,75,74,72,65,64,51,18,11];
@@ -109,7 +109,6 @@ else if(t=="scaligi"){"Scaligi's favourite Cap Bailey "+s+" 61. "+a[61-1];}
 else if(t=="Scaligi"){"Scaligi's second favourite Cap Bailey "+s+" 2. "+a[2-1];}
 else if(t=="Scali"||q=="scali"){"Scaligi's go to Cap Bailey "+s+" from 7m 30s in (To avoid that damn cloth I can tell you!) 314. "+a[314-1]+"?t=450";}
 
-else if(t=="enola"){"Enola's favourite Cap Bailey "+s+" 105. "+a[105-1];}
 
 else if(q=="Vera"||q=="vera"){vera_r = Math.floor(Math.random()*vera.length); "One of Vera's favourite Cap Bailey "+s+"s "+vera[vera_r]+". "+a[vera[vera_r]-1]+" 💜 "+tag[Math.floor(Math.random()*tag.length)];}
 else if(t=="<@904784029180653639>"||t=="verafiedtrashpanda"){vera_r = Math.floor(Math.random()*vera.length); "One of Vera's favourite Cap Bailey "+s+"s "+vera[vera_r]+". "+a[vera[vera_r]-1]+" 💜 "+tag[Math.floor(Math.random()*tag.length)];}
