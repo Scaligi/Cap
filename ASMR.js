@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_11.20";
+rc_v ="vYT_11.21";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
