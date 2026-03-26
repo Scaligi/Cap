@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_11.25";
+rc_v ="vYT_11.26";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -16,7 +16,7 @@ jump = false;
 if (jump_check=="#" ) {jump_short_message = "**S-JUMP** "; jump = true;}
 if (jump_check=="`" ) {jump_member_message = "**M-JUMP** "; jump = true;}
 }
-while (jump == false);
+while (jump == true);
 
 s ="ASMR Video";
 
