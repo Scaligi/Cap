@@ -16,7 +16,7 @@ jump = false;
 if (jump_check=="#" ) {jump_short_message = "**S-JUMP** "; jump = true;}
 if (jump_check=="`" ) {jump_member_message = "**M-JUMP** "; jump = true;}
 }
-while (jump == true);
+while (jump == false);
 
 s ="ASMR Video";
 
