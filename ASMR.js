@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_11.33j";
+rc_v ="vYT_12.0";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -25,6 +25,7 @@ tag =[" - Don't forget to like the video!", " - What are you waiting for? Share,
 options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
 shorts = [681,680,678,676,673,671,669,668,612,605,591,588,584,581,577,572,568,565,561,560,558,556,555,554,516,514,513,505,503,501,500,498,497,454,429,402,401,397,396,395,393,392,388,382,381,378,377,375,373,371,370,369,368,362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
+members = [682,674,662,659,656,653,651,648,645,642,639,636,633,631,470,463,440,436];
 
 affirmation =[357,336,333,301,285,284,268,149,122,118,70,15];
 ambient =[334,300,291,237,211,209,199,196,177,162,155,152,150,103,101,100,95,94,92,83,81,79,77,75,74,72,65,64,51,18,11];
@@ -138,11 +139,13 @@ else if(q=="shorts"||q=="short"){shorts_r = Math.floor(Math.random()*shorts.leng
 else if(q=="shorts list"||q=="short list"){shorts.reverse();u+" --> #Shorts ASMR video list is: "+shorts+" Total="+shorts.length;}
 
 else if(q=="announcement"||q=="twitch"){"Announcement "+s+"s selected by "+u+" 66. "+a[66-1]+tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="members" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
-else if(q=="members only" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
-else if(q=="members"||q=="members only"){"Members Only pre-release "+s+" selected by "+u+" "+[n+1]+". "+a[n];}
+else if(q=="preview" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
+else if(q=="pre-release" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
+else if(q=="preview"||q=="pre-release"){"Members Only pre-release "+s+" selected by "+u+" "+[n+1]+". "+a[n];}
 else if(q=="hidden members"||q=="hidden members only"){"Hidden Members Only "+s+" selected by "+u+" - Super Random But Relaxing Video https://youtu.be/r05IrZ6_oWg";}
 
+
+ 
 else if(q=="gnarly"){"Oh That's Gnarly video: "+ gnarly[Math.floor(Math.random()*gnarly.length)];}
 else if(q=="gnarly new"||q=="gnarly latest"){"Oh That's Gnarly video: "+ gnarly[0];}
 
