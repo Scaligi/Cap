@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_12.3a";
+rc_v ="vYT_12.3b";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -22,7 +22,7 @@ s ="ASMR Video";
 
 tag =[" - Don't forget to like the video!", " - What are you waiting for? Share, share, share!", " - Go comment to feed the YouTube algorithm!", " - Have you subscribed to Cap Bailey ASMR?", " - Don't miss another video, hit that notification bell!"];
 
-options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, members, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
+options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
 shorts = [681,680,678,676,673,671,669,668,612,605,591,588,584,581,577,572,568,565,561,560,558,556,555,554,516,514,513,505,503,501,500,498,497,454,429,402,401,397,396,395,393,392,388,382,381,378,377,375,373,371,370,369,368,362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
 members = [682,674,662,659,656,653,651,648,645,642,639,636,633,631,470,463,440,436];
@@ -99,7 +99,7 @@ else if(q=="test"){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+
 else if(q=="v"){"Version: NC_"+nc_v+"/RC_"+rc_v;}
 else if(q=="tags"||q=="tag list"){"The post hyperlink tags are: "+tag+" Total Tags="+tag.length;}
 
-else if(q=="help"||q=="?"){"!asmr suggests a random video from Cap Bailey's YouTube channel | !asmr 1 - "+n+" selects a specific video | Command options include !asmr latest, list, total | Use !asmr options for a list of category options | !asmr featuring bailey for other ASMR artists suggestions";}
+else if(q=="help"||q=="?"){"!asmr suggests a random video from Cap Bailey's YouTube channel | !asmr 1 - "+n+" selects a specific video | Command options include !asmr latest, members, shorts, list, total | Use !asmr options for a list of category options | !asmr featuring bailey for other ASMR artists suggestions";}
 else if(q=="list"){"The video list database used by this command is available here: https://pastebin.com/"+db;}
 else if(q=="options"||q=="option"){"**Options:** "+options;}
 else if(q=="total"){"Cap Bailey has "+n+" ASMR videos on his YouTube channel, including "+[n-shorts.length]+" Full length videos and "+[shorts.length]+" #Shorts, including three announcements.";}
