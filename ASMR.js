@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_12.1";
+rc_v ="vYT_12.2";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -144,7 +144,8 @@ else if(q=="pre-release" && a[n]==""){"There is no current members only pre-rele
 else if(q=="preview"||q=="pre-release"){"Members Only pre-release "+s+" selected by "+u+" "+[n+1]+". "+a[n];}
 else if(q=="hidden members"||q=="hidden members only"){"Hidden Members Only "+s+" selected by "+u+" - Super Random But Relaxing Video https://youtu.be/r05IrZ6_oWg";}
 
-else if(q=="members"||q=="members only"){"Members Only "+s+" selected by "+u+ members[Math.floor(Math.random()*members.length)];}
+else if(q=="members"||q=="members only"){members_r = Math.floor(Math.random()*members.length); "Members Only "+s+" suggestion for "+u+" "+members[members_r]+". "+a[members[members_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="members list"){members.reverse(); u+" --> Members Only "+s+" list is: "+members+" Total="+members.length;}
  
 else if(q=="gnarly"){"Oh That's Gnarly video: "+ gnarly[Math.floor(Math.random()*gnarly.length)];}
 else if(q=="gnarly new"||q=="gnarly latest"){"Oh That's Gnarly video: "+ gnarly[0];}
