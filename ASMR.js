@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_12.3";
+rc_v ="vYT_12.3a";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -22,7 +22,7 @@ s ="ASMR Video";
 
 tag =[" - Don't forget to like the video!", " - What are you waiting for? Share, share, share!", " - Go comment to feed the YouTube algorithm!", " - Have you subscribed to Cap Bailey ASMR?", " - Don't miss another video, hit that notification bell!"];
 
-options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
+options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, members, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
 shorts = [681,680,678,676,673,671,669,668,612,605,591,588,584,581,577,572,568,565,561,560,558,556,555,554,516,514,513,505,503,501,500,498,497,454,429,402,401,397,396,395,393,392,388,382,381,378,377,375,373,371,370,369,368,362,356,351,349,345,343,340,331,317,305,298,295,288,277,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117,91,66];
 members = [682,674,662,659,656,653,651,648,645,642,639,636,633,631,470,463,440,436];
@@ -166,7 +166,6 @@ else if(q=="pirate"||q=="pirates"){"Pirate "+s+" selected by "+u+" 59. "+a[59-1]
 else if(q=="shark"){"Cap Bailey's Shark ASMR selected by "+u+" 263. "+a[263-1]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="starwars"||q=="star wars"){"Star Wars "+s+" selected by "+u+" 100. "+a[100-1];}
 else if(q=="tattoo"||q=="tattoos"){"Cap Bailey's tattoos selected by "+u+" 53. "+a[53-1]+" and 246. "+a[246-1];}
-else if(q=="I'm your idiot"||q=="I'm an idiot"){"I'm your idiot "+s+" selected by "+u+" 105. "+a[105-1];}
 else if(q=="i'm your idiot"||q=="i'm an idiot"){"I'm your idiot "+s+" selected by "+u+" 105. "+a[105-1];}
 
 
