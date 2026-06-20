@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_12.5c";
+rc_v ="vYT_12.5d";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -93,8 +93,8 @@ other =[
 "edafoxx ASMR: THE ASMR COLLAB: 21 Roleplays in 21 Minutes with Your Favorite ASMRtists! https://youtu.be/zsMPHJQgew4?t=577"];
 
 
-if(q=="test" && a[n]==""){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
-else if(q=="test"){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members="+[n+1]+", Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
+if(q=="test" && a[n]==""){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members="+members.length+", Preview=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
+else if(q=="test"){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Total="+n+", Shorts="+shorts.length+", Members="+members.length+", Preview="+[n+1]+", Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
 else if(q=="v"){"Version: NC_"+nc_v+"/RC_"+rc_v;}
 else if(q=="tags"||q=="tag list"){"The post hyperlink tags are: "+tag+" Total Tags="+tag.length;}
 
