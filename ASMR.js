@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_12.5j";
+rc_v ="vYT_12.6test";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -135,7 +135,7 @@ else if(q==""||q=="#"){jump_message+s+" suggestion for "+u+" "+r+". "+a[r-1]+tag
 else if(q=="latest"||q=="new"){"My latest video on YouTube "+a[n-1]+tag[Math.floor(Math.random()*tag.length)];}
 
 else if(q=="shorts"||q=="short"){shorts_r = Math.floor(Math.random()*shorts.length); "#Shorts "+s+" suggestion for "+u+" "+shorts[shorts_r]+ ". " + a[shorts[shorts_r]-1].split(' ').slice(1).join(' ') +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="shorts list"||q=="short list"){shorts.reverse();u+" --> #Shorts ASMR video list is: "+shorts+" Total="+shorts.length;}
+else if(q=="shorts list"||q=="short list"){shorts.reverse();u+" --> #Shorts ASMR video list is available here https://www.youtube.com/@CapBaileyASMR/shorts - Total shorts="+shorts.length;}
 
 else if(q=="announcement"||q=="twitch"){"Announcement "+s+"s selected by "+u+" 66. "+a[66-1]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="preview" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
