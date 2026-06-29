@@ -1,7 +1,7 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_12.6d";
+rc_v ="vYT_12.6-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
-db="xd4wYYVR";
+db="xd4wYYVR-v14";
 
 q=q.toLowerCase();
 n=a.length-1;
