@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.0c-Dev";
+rc_v ="vYT_14.0d-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR-v14";
 
@@ -102,7 +102,7 @@ else if(q=="tags"||q=="tag list"){"The post hyperlink tags are: "+tag+" Total Ta
 else if(q=="help"||q=="?"){"!asmr suggests a random video from Cap Bailey's YouTube channel | !asmr 1 - "+n+" selects a specific video | Command options include !asmr latest, members, shorts, list, total | Use !asmr options for a list of category options | !asmr featuring bailey for other ASMR artists suggestions";}
 else if(q=="list"){"The video list database used by this command is available here: https://pastebin.com/"+db;}
 else if(q=="options"||q=="option"){"**Options:** "+options;}
-else if(q=="total"||q=="totals"){"Cap Bailey has "+n+" ASMR videos on his YouTube channel, including "+[[n-5]-shorts.length]+" Full length videos, "+[shorts.length]+" #Shorts and a further 5 short videos, which include 2 channel announcements.";}
+else if(q=="total"||q=="totals"){"Cap Bailey has "+n+" ASMR videos on his YouTube channel: "+[[n-5]-shorts.length]+" Full length videos, including "+[members.length]+" Members Only videos, "+[shorts.length]+" #Shorts and 5 short videos, which includes 2 channel announcements.";}
 else if(q=="rev"){rev.reverse(); u+" --> Reverse Array list: "+rev+" Total="+rev.length;}
 else if(q=="f"){u+" --> Found= "+f+", Random ="+r;}
 
