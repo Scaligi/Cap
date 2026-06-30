@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.0g-Dev";
+rc_v ="vYT_14.0h-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR-v14";
 
@@ -67,12 +67,11 @@ west =[363,220,186,150,128,103,72,51,11];
 whisp =[357,307,301,299,290,287,270,265,263,262,260,259,250,246,243,226,225,217,185,179,173,140,124,122,108,106,105,99,61];
 ww2 =[334,252,237,199,152,124,101,79,18];
 
-vera = [436,328,303,300,259,118,3];
+vera = [437,330,303,300,259,118,3];
 temple = [297,283];
-emily = [443,413,186,128,60];
+emily = [444,414,186,128,60];
 
-rev =[119,121,123,125,127,129,131,133,135,137,139,141,143,160,177,180,184,195,268,290,297,300,307,333,342,345,347,351,353,358,363,370,371,372,373,375,379,380,383,384,390,394,395,397,398,399,401,403,404,431,456,499,500,502,503,505,507,516,518,556,557,558,560];
-rev =[562,563,567,570,574,579,583,586,590,593,607,614,55555,670,673,675,678,680,682,683,686,687,55556,690,55558,691,693,695,697,699,700,555510,701,702,704,705,708,709];
+rev =[562,563,567,570];
 
 f = shorts.includes(r);
 
@@ -137,7 +136,7 @@ else if(q==""||q=="#"){jump_message+s+" suggestion for "+u+" "+r+". "+a[r-1]+tag
 else if(q=="latest"||q=="new"){"My latest video on YouTube "+a[n-1]+tag[Math.floor(Math.random()*tag.length)];}
 
 else if(q=="shorts"||q=="short"){shorts_r = Math.floor(Math.random()*shorts.length); "#Shorts "+s+" suggestion for "+u+" "+shorts[shorts_r]+ ". " + a[shorts[shorts_r]-1].split(' ').slice(1).join(' ') +tag[Math.floor(Math.random()*tag.length)];}
-else if(q=="shorts list"||q=="short list"){shorts.reverse();u+" --> #Shorts ASMR video list is available here https://www.youtube.com/@CapBaileyASMR/shorts - Total shorts="+shorts.length;}
+else if(q=="shorts list"||q=="short list"){shorts.reverse();u+" --> #Shorts ASMR video list is available here on YouTube https://www.youtube.com/@CapBaileyASMR/shorts - Total shorts="+shorts.length;}
 
 else if(q=="short video"||q=="sv"){short_v_r = Math.floor(Math.random()*short_v.length); "#Short Video "+s+" suggestion for "+u+" "+short_v[short_v_r]+ ". " + a[short_v[short_v_r]-1].split(' ').slice(1).join(' ') +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="short video list"||q=="sv list"){short_v.reverse();u+" --> Short Videos "+s+" list is: "+short_v+" Total shorts="+short_v.length;}
@@ -146,7 +145,6 @@ else if(q=="announcement"||q=="twitch"){"Announcement "+s+"s selected by "+u+" 6
 else if(q=="preview" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
 else if(q=="pre-release" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
 else if(q=="preview"||q=="pre-release"){"Members Only pre-release "+s+" selected by "+u+" "+[n+1]+". "+a[n];}
-else if(q=="hidden members"||q=="hidden members only"){"Hidden Members Only "+s+" selected by "+u+" - Super Random But Relaxing Video https://youtu.be/r05IrZ6_oWg";}
 
 else if(q=="members"||q=="members only"){members_r = Math.floor(Math.random()*members.length); "Members Only "+s+" suggestion for "+u+" "+members[members_r]+". "+a[members[members_r]-1] +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="members list"||q=="members only list"){members.reverse(); u+" --> Members Only "+s+" list is: "+members+" Total="+members.length;}
@@ -169,7 +167,7 @@ else if(q=="jamie"||q=="jamie french"){"Jamie French featuring Cap Bailey "+jami
 else if(q=="pirate"||q=="pirates"){"Pirate "+s+" selected by "+u+" 59. "+a[59-1];}
 else if(q=="shark"){"Cap Bailey's Shark ASMR selected by "+u+" 263. "+a[263-1]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="starwars"||q=="star wars"){"Star Wars "+s+" selected by "+u+" 100. "+a[100-1];}
-else if(q=="tattoo"||q=="tattoos"){"Cap Bailey's tattoos selected by "+u+" 53. "+a[53-1]+" and 246. "+a[246-1];}
+else if(q=="tattoo"||q=="tattoos"){"Cap Bailey's tattoos selected by "+u+" 53. "+a[53-1]+", 246. "+a[246-1]+" and 545. "+a[545-1];}
 else if(q=="i'm your idiot"||q=="i'm an idiot"){"I'm your idiot "+s+" selected by "+u+" 105. "+a[105-1];}
 
 
