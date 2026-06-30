@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.0f-Dev";
+rc_v ="vYT_14.0g-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR-v14";
 
@@ -25,6 +25,7 @@ options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab
 
 shorts = [723,721,720,717,716,713,712,710,709,707,706,704,702,700,698,696,695,694,692,689,688,685,684,682,680,677,675,672,671,614,607,593,590,586,583,579,574,570,567,563,562,560,558,557,556,517,515,506,504,502,501,499,498,455,430,403,402,400,398,397,396,394,393,389,383,382,379,378,375,373,372,371,370,363,358,353,351,347,345,342,333,305,298,295,288,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117];
 members = [719,714,703,699,691,686,678,673,667,664,661,658,655,653,650,647,644,641,638,635,633,471,464,441,437,329,322];
+short_v = [317,277,91];
 
 affirmation =[357,336,333,301,285,284,268,149,122,118,70,15];
 ambient =[334,300,291,237,211,209,199,196,177,162,155,152,150,103,101,100,95,94,92,83,81,79,77,75,74,72,65,64,51,18,11];
@@ -137,6 +138,9 @@ else if(q=="latest"||q=="new"){"My latest video on YouTube "+a[n-1]+tag[Math.flo
 
 else if(q=="shorts"||q=="short"){shorts_r = Math.floor(Math.random()*shorts.length); "#Shorts "+s+" suggestion for "+u+" "+shorts[shorts_r]+ ". " + a[shorts[shorts_r]-1].split(' ').slice(1).join(' ') +tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="shorts list"||q=="short list"){shorts.reverse();u+" --> #Shorts ASMR video list is available here https://www.youtube.com/@CapBaileyASMR/shorts - Total shorts="+shorts.length;}
+
+else if(q=="short video"||q=="sv"){short_v_r = Math.floor(Math.random()*short_v.length); "#Short Video "+s+" suggestion for "+u+" "+short_v[short_v_r]+ ". " + a[short_v[short_v_r]-1].split(' ').slice(1).join(' ') +tag[Math.floor(Math.random()*tag.length)];}
+else if(q=="short video list"||q=="sv list"){short_v.reverse();u+" --> Short Videos "+s+" list is: "+short_v+" Total shorts="+short_v.length;}
 
 else if(q=="announcement"||q=="twitch"){"Announcement "+s+"s selected by "+u+" 66. "+a[66-1]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="preview" && a[n]==""){"There is no current members only pre-release "+s+" "+u;}
