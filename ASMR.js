@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.0o";
+rc_v ="vYT_14.0p";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -24,7 +24,7 @@ tag =[" - Don't forget to like the video!", " - What are you waiting for? Share,
 options ="affirmation, ambient, apache, bodyguard, binaural, boy, coffee, collab, cne, cod, dr frantic, ears, eyes, face, food, gaming, guns, hair, halloween, hands, joker, lights, lumberjack, mafia, measuring, medical, military, movies, non roleplay, non verbal, nose, personal attention, pirate, q&a, shave, shorts, sports, starwars, tarkov, tattoo, throat, typing, western, whispered, ww2";
 
 shorts = [732,728,725,723,721,720,717,716,713,712,710,709,707,706,704,702,700,698,696,695,694,692,689,688,685,684,682,680,677,675,672,671,614,607,593,590,586,583,579,574,570,567,563,562,560,558,557,556,517,515,506,504,502,501,499,498,455,430,403,402,400,398,397,396,394,393,389,383,382,379,378,375,373,372,371,370,363,358,353,351,347,345,342,333,305,298,295,288,266,193,182,178,175,158,141,139,137,135,133,131,129,127,125,123,121,119,117];
-members = [726,719,714,703,699,691,686,678,673,667,664,661,658,655,653,650,647,644,641,638,635,633,471,464,441,437,329,322];
+members = [733,730,726,719,714,703,699,691,686,678,673,667,664,661,658,655,653,650,647,644,641,638,635,633,471,464,441,437,329,322];
 short_v = [317,277,91];
 tattoo = [545,246,53];
 
