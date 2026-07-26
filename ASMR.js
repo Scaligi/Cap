@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.1b-Dev";
+rc_v ="vYT_14.1d-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -17,8 +17,8 @@ do {
 r=Math.floor(Math.random()*n)+1;
 jump_check = a[r-1].charAt(0);
 jump = false;
-if (jump_check=="#" ) {jump_message = jump_message+dmd_bold"S-JUMP-"+r+dmd_bold+" "; jump = true;}
-if (jump_check=="`" ) {jump_message = jump_message+dmd_bold"M-JUMP-"+r+dmd_bold+" "; jump = true;}
+if (jump_check=="#" ) {jump_message = jump_message+dmd_bold+"S-JUMP-"+r+dmd_bold+" "; jump = true;}
+if (jump_check=="`" ) {jump_message = jump_message+dmd_bold+"M-JUMP-"+r+dmd_bold+" "; jump = true;}
 }
 while (jump == true);
 
