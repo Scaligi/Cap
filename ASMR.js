@@ -1,5 +1,5 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.0r";
+rc_v ="vYT_14.1-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
@@ -16,6 +16,8 @@ if (jump_check=="#" ) {jump_message = jump_message+"**S-JUMP-"+r+"** "; jump = t
 if (jump_check=="`" ) {jump_message = jump_message+"**M-JUMP-"+r+"** "; jump = true;}
 }
 while (jump == true);
+
+if (p=="twitch") {a = a.map(a => a.replaceAll("`", ""));}
 
 s ="ASMR Video";
 
