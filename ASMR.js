@@ -1,10 +1,15 @@
 title ="Cap Bailey's ASMR Command";
-rc_v ="vYT_14.2-Dev";
+rc_v ="vYT_14.1a-Dev";
 rc_url ="/Scaligi/Cap/main/ASMR";
 db="xd4wYYVR";
 
 q=q.toLowerCase();
 n=a.length-1;
+
+dmd_cb = "";
+dmd_italic = "";
+dmd_bold = "";
+if (p=="discord") {dmd_cb = "```"; dmd_italic = "*"; dmd_bold = "**";}
 
 jump_message = "";
  
@@ -12,8 +17,8 @@ do {
 r=Math.floor(Math.random()*n)+1;
 jump_check = a[r-1].charAt(0);
 jump = false;
-if (jump_check=="#" ) {jump_message = jump_message+"**S-JUMP-"+r+"** "; jump = true;}
-if (jump_check=="`" ) {jump_message = jump_message+"**M-JUMP-"+r+"** "; jump = true;}
+if (jump_check=="#" ) {jump_message = jump_message+dmd_bold"S-JUMP-"+r+dmd_bold" "; jump = true;}
+if (jump_check=="`" ) {jump_message = jump_message+dmd_bold"M-JUMP-"+r+dmd_bold" "; jump = true;}
 }
 while (jump == true);
 
@@ -97,8 +102,8 @@ other =[
 "edafoxx ASMR: THE ASMR COLLAB: 21 Roleplays in 21 Minutes with Your Favorite ASMRtists! https://youtu.be/zsMPHJQgew4?t=577"];
 
 
-if(q=="test" && a[n]==""){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Provider="+p+", Total="+n+", Shorts="+shorts.length+", Members Only="+members.length+", Preview=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
-else if(q=="test"){"```"+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Provider="+p+", Total="+n+", Shorts="+shorts.length+", Members Only="+members.length+", Preview="+[n+1]+", Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+"```";}
+if(q=="test" && a[n]==""){dmd_cb+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Provider="+p+", Total="+n+", Shorts="+shorts.length+", Members Only="+members.length+", Preview=None, Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+dmd_cb;}
+else if(q=="test"){dmd_cb+title+": NC_"+nc_v+"/RC_"+rc_v+" User="+u+", Query="+q+", Provider="+p+", Total="+n+", Shorts="+shorts.length+", Members Only="+members.length+", Preview="+[n+1]+", Random="+r+", URLfetch Successful: Database:"+db+" Remote_Code:"+rc_url+dmd_cb;}
 else if(q=="v"){"Version: NC_"+nc_v+"/RC_"+rc_v;}
 else if(q=="tags"||q=="tag list"){"The post hyperlink tags are: "+tag+" Total Tags="+tag.length;}
 
@@ -303,4 +308,4 @@ else if(q=="whisper list"||q=="whispered list"){whisp.reverse(); u+" --> Whisper
 else if(q=="ww2"){ww2_r = Math.floor(Math.random()*ww2.length); "WW2 "+s+" suggestion for "+u+" " +ww2[ww2_r]+ ". " +a[ww2[ww2_r]-1]+tag[Math.floor(Math.random()*tag.length)];}
 else if(q=="ww2 list"){ww2.reverse(); u+" --> WW2 "+s+" list is: "+ww2+" Total="+ww2.length;}
 
-else{"*"+u+" --> When specifying please select a number between 1 and "+n+" or use* `!asmr help` *for a list of other command options*";}
+else{dmd_italic+u+" --> When specifying please select a number between 1 and "+n+" or use* `!asmr help` *for a list of other command options"+dmd_italic;}
